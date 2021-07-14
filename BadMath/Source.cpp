@@ -17,7 +17,7 @@ int main()
 
 	float a = average(n1, n2, n3);
 
-	cout << "The average is " << a << endl;
+	cout << setprecision(1) << fixed << "The average is " << a << endl;
 
 	return 0;
 }
